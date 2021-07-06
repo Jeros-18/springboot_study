@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b266caf9-e3c2-41b1-9687-f57aff9cb4bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atjh/boot05webadmin/config/AdminWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atjh/boot05webadmin/controller/FormTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atjh/boot05webadmin/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/form/form_layouts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atjh/boot05webadmin/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atjh/boot05webadmin/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atjh/boot05webadmin/controller/TableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atjh/boot05webadmin/controller/TableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/common.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/table/dynamic_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/table/dynamic_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atjh/boot05webadmin/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atjh/boot05webadmin/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atjh/boot05webadmin/controller/TableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atjh/boot05webadmin/controller/TableController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/common.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/table/dynamic_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/table/dynamic_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atjh/boot05webadmin/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atjh/boot05webadmin/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atjh/boot05webadmin/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atjh/boot05webadmin/controller/IndexController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uv8qdgtBz2CyF5M2qFEEI4Om5t" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/1大学文件/尚硅谷Springboot2核心技术（好评如潮）/leifengyang-springboot2-master/springboot2/boot-05-web-admin/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/form" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -81,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625534893199</updated>
       <workItem from="1625534902630" duration="15869000" />
-      <workItem from="1625563474358" duration="8399000" />
+      <workItem from="1625563474358" duration="12138000" />
     </task>
     <servers />
   </component>
@@ -101,38 +98,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1625560296491" />
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1625572345580">
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom" timestamp="1625576096518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625572345580" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1625572345580">
+    <state width="1493" height="286" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625576096518" />
+    <state width="1493" height="286" key="GridCell.Tab.0.center" timestamp="1625576096518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625572345580" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1625572345580">
+    <state width="1493" height="286" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625576096518" />
+    <state width="1493" height="286" key="GridCell.Tab.0.left" timestamp="1625576096518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625572345580" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1625572345580">
+    <state width="1493" height="286" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625576096518" />
+    <state width="1493" height="286" key="GridCell.Tab.0.right" timestamp="1625576096518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625572345580" />
-    <state width="1493" height="212" key="GridCell.Tab.1.bottom" timestamp="1625572345580">
+    <state width="1493" height="286" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625576096518" />
+    <state width="1493" height="286" key="GridCell.Tab.1.bottom" timestamp="1625576096518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625572345580" />
-    <state width="1493" height="212" key="GridCell.Tab.1.center" timestamp="1625572345580">
+    <state width="1493" height="286" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625576096518" />
+    <state width="1493" height="286" key="GridCell.Tab.1.center" timestamp="1625576096518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1625572345580" />
-    <state width="1493" height="212" key="GridCell.Tab.1.left" timestamp="1625572345580">
+    <state width="1493" height="286" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1625576096518" />
+    <state width="1493" height="286" key="GridCell.Tab.1.left" timestamp="1625576096518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1625572345580" />
-    <state width="1493" height="212" key="GridCell.Tab.1.right" timestamp="1625572345580">
+    <state width="1493" height="286" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1625576096518" />
+    <state width="1493" height="286" key="GridCell.Tab.1.right" timestamp="1625576096518">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1625572345580" />
+    <state width="1493" height="286" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1625576096518" />
     <state width="1493" height="277" key="GridCell.Tab.2.bottom" timestamp="1625560301081">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
